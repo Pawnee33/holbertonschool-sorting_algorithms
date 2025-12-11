@@ -15,8 +15,8 @@ void swap(int *a, int *b)
 /**
  * partition - Lomuto partition algo
  * @array: The int array to partition
- * @lo: The lowest index
- * @hi: The highest index
+ * @lo: The lowest index to condsider
+ * @hi: The highest index to condsider
  * @size: The size of the array
  * Return: Final index of pivot
 */
@@ -49,8 +49,8 @@ size_t partition(int *array, int lo, int hi, size_t size)
 /**
  * quicksort - Quicksort algo
  * @array: The array to sort
- * @lo: The lowest index
- * @hi: The highest index
+ * @lo: The lowest index to condsider
+ * @hi: The highest index to condsider
  * @size: Size of the array
 */
 void quicksort(int *array, int lo, int hi, size_t size)
